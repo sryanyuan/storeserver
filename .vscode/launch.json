@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch_storeserver",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "remotePath": "",
+            "port": 2345,
+            "host": "127.0.0.1",
+            "program": "${workspaceRoot}/storeserver",
+            "env": {
+                "GOPATH": "${workspaceRoot}/../../../../"
+            },
+            "args": [
+                "-http-addr",
+                ":8000"
+            ],
+            "showLog": true
+        }
+    ]
+}

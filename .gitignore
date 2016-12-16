@@ -1,5 +1,5 @@
 *.exe
 *.exe~
 *.db
-*.json
+storeserver/*.json
 storeserver/debug
